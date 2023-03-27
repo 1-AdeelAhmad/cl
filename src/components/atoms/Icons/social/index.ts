@@ -1,0 +1,7 @@
+export { default as IconFacebook } from './Facebook'
+export { default as IconInstagram } from './Instagram'
+export { default as IconLinkedin } from './Linkedin'
+export { default as IconPinterest } from './Pinterest'
+export { default as IconTiktok } from './Tiktok'
+export { default as IconTwitter } from './Twitter'
+export { default as IconYoutube } from './Youtube'

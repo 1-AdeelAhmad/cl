@@ -1,0 +1,62 @@
+{
+  "name": "vd-cl",
+  "author": "adeel.ahmad@visiondirect.co.uk",
+  "license": "ISC",
+  "version": "1.0.4",
+  "description": "Vision Direct Component Library",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "build": "rm -rf dist && rollup -c --bundleConfigAsCjs",
+    "deploy": "npm run build && npm publish"
+  },
+  "keywords": [],
+  "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@mui/icons-material": "^5.11.11",
+    "@mui/material": "^5.11.13",
+    "@mui/styles": "^5.11.13",
+    "@mui/x-date-pickers": "^6.0.3",
+    "@rollup/plugin-commonjs": "^24.0.1",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-url": "^8.0.1",
+    "@storybook/addon-a11y": "^6.5.16",
+    "@storybook/addon-knobs": "^6.4.0",
+    "@svgr/rollup": "^7.0.0",
+    "@types/react": "^18.0.28",
+    "dayjs": "^1.11.7",
+    "postcss": "^8.4.21",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rollup": "^3.20.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-typescript2": "^0.34.1",
+    "storybook-addon-styled-component-theme": "^2.0.0",
+    "styled-components": "^5.3.9",
+    "typescript": "^5.0.2"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.3",
+    "@storybook/addon-actions": "^6.5.16",
+    "@storybook/addon-essentials": "^6.5.16",
+    "@storybook/addon-interactions": "^6.5.16",
+    "@storybook/addon-links": "^6.5.16",
+    "@storybook/builder-webpack4": "^6.5.16",
+    "@storybook/builder-webpack5": "^6.5.16",
+    "@storybook/react": "^6.5.16",
+    "@storybook/testing-library": "^0.0.13",
+    "@types/styled-components": "^5.1.26",
+    "babel-loader": "^8.3.0",
+    "react-docgen-typescript-plugin": "^1.0.5"
+  }
+}
